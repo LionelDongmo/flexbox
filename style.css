@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /*flex-flow: row wrap; racourci aux 2 plus haut*/
+  height: 700px;
+  justify-content: space-around;
+  align-items: center;
+  /*align-content: center; /* alignement à l'interieur */
+}
+
+.items{
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  /*flex-grow: 1;*/
+  /*flex-shrink: 1;
+  flex-basis: 500;
+  flex: 1 50%;*/
+}
+/*.items:nth-child(6){
+  order: 1;
+}
+.items:nth-child(1){
+  order: 2;
+}
+.items:last-child{
+  /*flex-grow: 2;
+  flex-shrink: 1;
+  align-self: flex-end;
+}*/
+.items h5{
+  text-transform: uppercase;
+}
+.items h5:last-child{
+  text-transform: lowercase;
+}
+.text-black{
+  color: #000;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.brown{
+  background-color: brown;
+}
+.yellow{
+  background-color: yellow;
+}
+.tomato{
+  background-color: tomato;
+}
+.crimson{
+  background-color: crimson;
+}
+.aqua{
+  background-color: aqua;
+}
+.chocolate{
+  background-color: chocolate;
+}
+.bisque{
+  background-color: bisque;
+}
+.black{
+  background-color: black;
+}
+.violet{
+  background-color: violet;
+}
+.chartreuse{
+  background-color: chartreuse;
+}
+.cadetblue{
+  background-color: cadetblue;
+}
+.cyan{
+  background-color: cyan;
+}
+.antiquewhite{
+  background-color:antiquewhite;
+}
+.coral{
+  background-color: coral;
+}
+.cornflowerblue{
+  background-color: cornflowerblue;
+}
+.darkblue{
+  background-color: darkblue;
+}
